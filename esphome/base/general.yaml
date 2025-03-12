@@ -64,15 +64,6 @@ sensor:
     platform: modbus_controller
     modbus_controller_id: ${modbus_id}
     icon: mdi:molecule-co2
-  - name: ${s_3020}
-    address: 3020
-    unit_of_measurement: Rpm
-    value_type: U_WORD
-    register_type: holding
-    state_class: measurement
-    platform: modbus_controller
-    modbus_controller_id: ${modbus_id}
-    icon: mdi:speedometer
   - name: ${s_3021}
     address: 3021
     unit_of_measurement: Rpm
@@ -84,13 +75,13 @@ sensor:
     icon: mdi:speedometer
   - name: ${s_3022}
     address: 3022
-    unit_of_measurement: W
+    unit_of_measurement: Rpm
     value_type: U_WORD
     register_type: holding
     state_class: measurement
     platform: modbus_controller
     modbus_controller_id: ${modbus_id}
-    icon: mdi:lightning-bolt
+    icon: mdi:speedometer
   - name: ${s_3023}
     address: 3023
     unit_of_measurement: W
@@ -102,6 +93,15 @@ sensor:
     icon: mdi:lightning-bolt
   - name: ${s_3024}
     address: 3024
+    unit_of_measurement: W
+    value_type: U_WORD
+    register_type: holding
+    state_class: measurement
+    platform: modbus_controller
+    modbus_controller_id: ${modbus_id}
+    icon: mdi:lightning-bolt
+  - name: ${s_3025}
+    address: 3025
     value_type: U_WORD
     register_type: holding
     state_class: measurement
