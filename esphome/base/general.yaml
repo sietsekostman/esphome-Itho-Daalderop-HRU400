@@ -1,31 +1,31 @@
 sensor:
   # massflow intake
-  - name: ${s_2021}
-    address: 2021
+  - name: ${s_2020}
+    address: 2020
     unit_of_measurement: m3/h
     value_type: U_WORD
     register_type: holding
     state_class: measurement
     platform: modbus_controller
     modbus_controller_id: ${modbus_id}
-  - name: ${s_2022}
-    address: 2022
+  - name: ${s_2021}
+    address: 2021
     value_type: U_WORD
     register_type: holding
     state_class: measurement
     platform: modbus_controller
     modbus_controller_id: ${modbus_id}
   # massflow exhaust
-  - name: ${s_2023}
-    address: 2023
+  - name: ${s_2022}
+    address: 2022
     unit_of_measurement: m3/h
     value_type: U_WORD
     register_type: holding
     state_class: measurement
     platform: modbus_controller
     modbus_controller_id: ${modbus_id}
-  - name: ${s_2024}
-    address: 2024
+  - name: ${s_2023}
+    address: 2023
     value_type: U_WORD
     register_type: holding
     state_class: measurement
