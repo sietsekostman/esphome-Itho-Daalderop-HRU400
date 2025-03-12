@@ -9,6 +9,13 @@ esp32:
 ###
 # Uart Settings
 ###
+# https://shop.m5stack.com/products/atomic-rs485-base
+# G6 = TX = SDB
+# G5 = RX = SDA
+
+# https://docs.m5stack.com/en/unit/rs485
+# G2 = TX = SDB
+# G1 = RX = SDA
 uart:
   id: uart_modbus
   tx_pin: 2
