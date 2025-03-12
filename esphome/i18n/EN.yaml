@@ -17,11 +17,11 @@ substitutions:
   s_3001: Highest percentage exhaust in Automodus
   s_3010: Highest measured RV (extern & I²C) (not in fans)
   s_3011: Highest measured CO2-concentratie
-  s_3020: Speed ingress fan
-  s_3021: Speed exhaust fan
-  s_3022: Power usage ingress fan
-  s_3023: Power usage exhaust fan
-  s_3024: Zone flaps connected; Bit 0=Zone 1; Bit 1=Zone 2; Bit 3=Zone 3; Bit 4=Zone 4
+  s_3021: Speed ingress fan
+  s_3022: Speed exhaust fan
+  s_3023: Power usage ingress fan
+  s_3024: Power usage exhaust fan
+  s_3025: Zone flaps connected; Bit 0=Zone 1; Bit 1=Zone 2; Bit 3=Zone 3; Bit 4=Zone 4
   s_3030: Volume flow from outside
   s_3031: Mass flow from outside
   s_3032: Temperature from outside
@@ -52,7 +52,7 @@ substitutions:
   sl_2021: Flow ingress - auto/manual
   sl_2011: Flow demand - auto/manual
   sl_499: Restart WTW unit.
-  # faultcodes.yaml: 
+  # faultcodes.yaml:
   s_199: Error Code
   s_200: Dirty filter (Volume)
   s_201: Dirty Filter (by time)
