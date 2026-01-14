@@ -4,7 +4,7 @@ number:
     unit_of_measurement: ${meas_steps}
     value_type: U_WORD
     min_value: 0
-    max_value: ${flap_max}
+    max_value: ${max.flap}
     step: 1
     register_type: holding
     platform: modbus_controller
@@ -25,7 +25,7 @@ number:
   - name: ${s_2212}
     address: 2212
     min_value: 0
-    max_value: ${max_cap}
+    max_value: ${max.cap}
     step: 1
     unit_of_measurement: m3/h
     value_type: U_WORD

@@ -13,7 +13,7 @@ number:
   - name: ${s_2218}
     address: 2218
     min_value: 0
-    max_value: ${max_cap}
+    max_value: ${max.cap}
     step: 1
     unit_of_measurement: m3/h
     value_type: U_WORD
